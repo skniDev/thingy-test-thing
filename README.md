@@ -1,2 +1,2 @@
-# thingy-test-thing
-rswfe regergegaragrevfdsgrtgfdsgd
+# sentence generator
+made using Cocke–Younger–Kasami algorithm
