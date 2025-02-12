@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Essay Idea Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Essay Idea Generator</h1>
+    <h2>made by sakuni</h2>
+    <h3>Approved by mr kelly</h4>
+    <select id="essayType" aria-label="Select essay type">
+      <option value="research">Research Essay</option>
+      <option value="expository">Expository Essay</option>
+      <option value="analytical">Analytical Essay</option>
+      <option value="narrative">Narrative Fictional</option>
+    </select>
+    <button id="generateBtn" aria-label="Generate new idea">Generate Idea</button>
+    <h3 id="ideaTitle" class="idea-title"></h3>
+    <p id="result"></p>
+  </div>
+
+  <script src="words.js" type="module"></script>
+  <script src="Algorithm.js" type="module"></script>
+  <script src="main.js" type="module"></script>
+</body>
+</html>
